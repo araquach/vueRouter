@@ -15512,8 +15512,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/adam-macbook/go/src/vueroute/src/js/app.js */"./src/js/app.js");
-module.exports = __webpack_require__(/*! /Users/adam-macbook/go/src/vueroute/src/sass/app.scss */"./src/sass/app.scss");
+__webpack_require__(/*! /Users/adamcarter/go/src/vueRouter/src/js/app.js */"./src/js/app.js");
+module.exports = __webpack_require__(/*! /Users/adamcarter/go/src/vueRouter/src/sass/app.scss */"./src/sass/app.scss");
 
 
 /***/ })
