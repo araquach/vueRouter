@@ -1,11 +1,17 @@
-import Vue from "vue";
-import VueRouter from 'vue-router';
-import TestComponent from './components/TestComponent.vue';
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+import App from './App.vue'
+import { routes } from './routes'
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
-Vue.component('test-component', TestComponent);
-
-const app = new Vue({
-    el: '#app'
+const router = new VueRouter({
+    routes,
+    mode: 'history'
 });
+
+new Vue({
+    el: '#app',
+    router,
+    render: h => h(App)
+})
